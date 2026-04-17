@@ -6,7 +6,7 @@ class Bus extends Vehicle {
 
     @Override
     public void accelerate() {
-        speed += 10;
+        speed += 20;
         System.out.println("Bus accelerating. Speed: " + speed);
     }
 

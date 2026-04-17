@@ -1,5 +1,5 @@
 interface Automobile {
 
-    void openTrunk();
+    void openBoot();
     void playRadio();
 }

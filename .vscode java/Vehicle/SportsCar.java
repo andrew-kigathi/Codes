@@ -6,7 +6,7 @@ class SportsCar extends Vehicle implements Automobile {
 
     @Override
     public void accelerate() {
-        speed += 30;
+        speed += 80;
         System.out.println("SportsCar accelerating fast! Speed: " + speed);
     }
 
@@ -22,7 +22,7 @@ class SportsCar extends Vehicle implements Automobile {
     }
 
     @Override
-    public void openTrunk() {
+    public void openBoot() {
         System.out.println("SportsCar trunk opened.");
     }
 

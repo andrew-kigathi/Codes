@@ -6,7 +6,7 @@ class Sedan extends Vehicle implements Automobile {
 
     @Override
     public void accelerate() {
-        speed += 15;
+        speed += 50;
         System.out.println("Sedan accelerating. Speed: " + speed);
     }
 
@@ -22,7 +22,7 @@ class Sedan extends Vehicle implements Automobile {
     }
 
     @Override
-    public void openTrunk() {
+    public void openBoot() {
         System.out.println("Sedan trunk opened.");
     }
 

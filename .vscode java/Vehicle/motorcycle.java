@@ -6,7 +6,7 @@ class Motorcycle extends Vehicle {
 
     @Override
     public void accelerate() {
-        speed += 20;
+        speed += 30;
         System.out.println("Motorcycle accelerating. Speed: " + speed);
     }
 
