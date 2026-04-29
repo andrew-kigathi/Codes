@@ -11,22 +11,47 @@
             margin: 20px;
             padding: 0;
         }
+
         h1, h2, h3, h4{
             color: #333;
         }
+
         h1{
             font-size: 2.5mm;
             text-transform: uppercase;
         }
+
         h2{
             font-size: 2mm;
             text-decoration: underline;
         }
+
         p{
             color: #6d058d;
             font-style: italic;
             background-color: #e0d4f7;
             padding: 7px
+        }
+
+        .toplinks{
+            background-color: #373737;
+            overflow: hidden;
+        }
+
+        .toplinks a{
+            float: left;
+            color: #f2f2f2;
+            display: block;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+        
+        .toplinks a:hover{
+            text-decoration: none;
+            background-color: #373737;
+            color: #f2f2f2;
         }
     </style>
 </head>
@@ -36,14 +61,16 @@
     <h3>2</h3>
     <h4>3</h4>
 
-    <ul type="circle">
-        <li><a href="about.html">about us</a></li>
-        <li><a href="Contact us.html"> Contact us</a></li>
-        <li><a href="services.html">Our services offered</a></li>
-        <li><a href="faq.html">FAQs</a></li>
-        <li><a href="toc.html">Terms and Conditions</a></li>
-        <li><a href="achievements.html">Achievements</a></li>
-    </ul>
+    
+    <div class="toplinks">
+        <a href="about.html">about us</a></li>
+        <a href="Contact us.html"> Contact us</a></li>
+        <a href="services.html">Our services offered</a></li>
+        <a href="faq.html">FAQs</a></li>
+        <a href="toc.html">Terms and Conditions</a></li>
+        <a href="achievements.html">Achievements</a></li>
+    </div>
+
 
     <p>If you have any questions or inquiries, please feel free to contact us using the information below:</p>
 
