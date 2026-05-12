@@ -1,0 +1,5 @@
+A = [2, 4, 6, 8]
+sum = 0
+for i in range(len(A)):
+    sum = sum + A[i]
+    print("i =", i, "\nsum =", sum)
