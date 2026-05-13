@@ -1,6 +1,6 @@
 {
-    "github.copilot.chat.agent.autoFix": true,
-    "github.copilot.chat.languageContext.inline.typescript.enabled": true,
+    "java.project.sourcePaths": ["src"],
+    "java.project.outputPath": "bin",
     "java.project.referencedLibraries": [
         "C:\\Users\\andre\\Desktop_og\\javafx-26_windows-x64_bin-sdk\\javafx-sdk-26.0.1\\lib\\*.jar"
     ]

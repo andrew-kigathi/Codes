@@ -1,0 +1,54 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Customer",
+            "request": "launch",
+            "mainClass": "Customer",
+            "projectName": "Codes_ef260f2a",
+            "vmArgs":"--module-path \"C:/Users/andre/Desktop_og/javafx-26_windows-x64_bin-sdk/javafx-sdk-26.0.1/lib\" --add-modules javafx.controls,javafx.fxml --enable-native-access=ALL-UNNAMED"
+        },
+        {
+            "type": "java",
+            "name": "MoviesGUI",
+            "request": "launch",
+            "mainClass": "MoviesGUI",
+            "projectName": "Codes_ef260f2a"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "Codes_ef260f2a",
+            "vmArgs": "--module-path \"C:/Users/andre/Desktop_og/javafx-26_windows-x64_bin-sdk/javafx-sdk-26.0.1/lib\" --add-modules javafx.controls,javafx.fxml --enable-native-access=ALL-UNNAMED"
+        },
+        {
+            "type": "java",
+            "name": "Movies",
+            "request": "launch",
+            "mainClass": "Movies",
+            "projectName": "Codes_ef260f2a",
+            "vmArgs": "--module-path \"C:/Users/andre/Desktop_og/javafx-26_windows-x64_bin-sdk/javafx-sdk-26.0.1/lib\" --add-modules javafx.controls,javafx.fxml --enable-native-access=ALL-UNNAMED"
+        },
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Open index.html",
+            "file": "c:\\Users\\andre\\Desktop_og\\Github\\Codes\\.vscode html\\index.html"
+        },
+
+        {
+            "type": "java",
+            "name": "Rentals",
+            "request": "launch",
+            "mainClass": "Rentals",
+            "projectName": "Codes_ef260f2a",
+            "vmArgs": "--module-path \"C:/Users/andre/Desktop_og/javafx-26_windows-x64_bin-sdk/javafx-sdk-26.0.1/lib\" --add-modules javafx.controls,javafx.fxml --enable-native-access=ALL-UNNAMED"
+        },
+    ]
+}

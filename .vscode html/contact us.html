@@ -4,9 +4,115 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About</title>
-    <style></style>
+    <style>
+        body {
+            font-family: Segoe UI, sans-serif;
+            margin: 50px;
+        }
+
+        .banner{
+            background-color: #f77f99ff;
+            text-align: center;
+            padding: 20px;
+            font-size: 50px;
+            font-family: Segoe UI;
+        }
+
+        .content{
+            float: left;
+            width: 70%;
+            padding: 20px;
+            flex: 7;
+        }
+
+        .row::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+    </style>
 </head>
 <body>
-    <h1>Contacts</h1>
+    <div class="banner">
+        <h1>Contacts</h1>
+    </div>
     <p>This is where you can contact us...</p>
+    <div class="row">
+        <div class="content">
+            <h2><strong>Contact Us</strong></h2>
+
+            <form action="">
+
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" placeholder="Your Name" required><br><br>
+                
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" placeholder="Your Email" required><br><br>
+
+                <label for="password">Password:</label><br>
+                <input type="password" id="password" name="password" placeholder="Your Password" required><br><br>
+
+                <label for="number">Number:</label><br>
+                <input type="number" id="number" name="number" placeholder="Your Number" required><br><br>
+
+                <label for="date">Date:</label><br>
+                <input type="date" id="date" name="date" placeholder="The Date" required><br><br>
+
+                <label for="time">Time:</label><br>
+                <input type="time" id="time" name="time" placeholder="The Time" required><br><br>
+
+                <label for="range">Range:</label><br>
+                <input type="range" id="range" name="range" placeholder="The Range" required><br><br>
+
+                <label for="color">Color:</label><br>
+                <input type="color" id="color" name="color" placeholder="The Color" required><br><br>
+
+                <label for="url">URL:</label><br>
+                <input type="url" id="url" name="url" placeholder="The URL" required><br><br>
+
+                <label for="search">Search:</label><br>
+                <input type="search" id="search" name="search" placeholder="The Search" required><br><br>
+
+                <label for="file">File:</label><br>
+                <input type="file" id="file" name="file" placeholder="Choose a file" required><br><br>
+
+                <input type="radio" name="ratings" value="1" id="rating1" required>
+                <label for="rating1"> 1</label>
+
+                <input type="radio" name="ratings" value="2" id="rating2" required>
+                <label for="rating2"> 2</label>
+
+                <input type="radio" name="ratings" value="3" id="rating3" required>
+                <label for="rating3"> 3</label>
+
+                <input type="radio" name="ratings" value="4" id="rating4" required>
+                <label for="rating4"> 4</label>
+
+                <input type="radio" name="ratings" value="5" id="rating5" required>
+                <label for="rating5"> 5</label><br><br>
+
+                <input type="checkbox" name="subscribe" value="bics" id="subscribe-bics">
+                <label for="subscribe-bics"> Subscribe to the BICS newsletter</label><br><br>
+
+                <input type="checkbox" name="subscribe" value="bbit" id="subscribe-bbit">
+                <label for="subscribe-bbit"> Subscribe to the BBIT newsletter</label><br><br>
+
+                <select name="options" required>
+                    <option value="">Select an option</option>
+                    <option value="option1">Option 1</option>
+                    <option value="option2">Option 2</option>
+                    <option value="option3">Option 3</option>
+                </select><br><br>
+
+                <textarea name="message" placeholder="Your Message" required></textarea><br><br>
+                
+                <label for="file-upload">Upload a file:</label><br>
+                <input type="file" id="file-upload" name="file-upload" required><br><br>
+                
+                <input type="reset" value="Reset Form"><br><br>
+                
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
 </body>

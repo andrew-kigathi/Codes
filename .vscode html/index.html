@@ -53,15 +53,37 @@
             background-color: #f2f2f2;
             color: #373737;
         }
+
+        table{
+            border: 1px solid #ddd;
+            margin: 0 auto;
+            border-collapse: collapse;
+        }
+
+        table th{
+            border: 1px solid #373737;
+            padding: 8px;
+            background-color: rgb(124, 84, 232);
+
+        }
+
+        table td{
+            border: 1px solid #373737;
+            padding: 8px;
+            text-align: left;
+        }
+
+        tr:nth-child(even){
+            background-color: lightblue;
+        }
+
+        tr:hover{
+            background-color: rgb(73, 234, 212);
+        }
     </style>
 </head>
 <body>
     <h1>Welcome to the website</h1>
-    <h2>1</h2>
-    <h3>2</h3>
-    <h4>3</h4>
-
-    
     <div class="toplinks">
         <a href="about.html">about us</a></li>
         <a href="Contact us.html"> Contact us</a></li>
@@ -70,7 +92,31 @@
         <a href="toc.html">Terms and Conditions</a></li>
         <a href="achievements.html">Achievements</a></li>
     </div>
-
+        <br>
+        <hr>
+        <br>
+    <table border="1" style="width: 75%;">
+        <tr>
+            <th>Product</th>
+            <th>Price</th>
+            <th>Quantity</th>
+        </tr>
+        <tr>
+            <td>Product A</td>
+            <td>$10</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>Product B</td>
+            <td>$20</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>Product C</td>
+            <td>$15</td>
+            <td>7</td>
+        </tr>
+    </table>
 
     <p>If you have any questions or inquiries, please feel free to contact us using the information below:</p>
 
