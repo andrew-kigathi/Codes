@@ -7,15 +7,16 @@
     <style>
         body {
             font-family: Segoe UI, sans-serif;
-            margin: 50px;
+            margin: 10px;
+            text-align: justify;
         }
 
         .banner{
-            background-color: #f77f99ff;
             text-align: center;
-            padding: 20px;
-            font-size: 50px;
+            padding: 10px;
+            font-size: 20px;
             font-family: Segoe UI;
+            background-color: rgb(160, 160, 160);
         }
 
         .content{
@@ -30,18 +31,66 @@
             display: table;
             clear: both;
         }
+
+        .contact-form {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            font-family: Arial, sans-serif;
+        }
+
+        .contact-form input[type="submit"] {
+            background-color: #2275ce;
+            color: white;
+            border: none;
+            padding: 12px;
+            margin-top: 15px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .contact-form input[type="submit"]:hover {
+            background-color: #68a7ea;
+        }
+
+        .toplinks-right{
+            background-color: #373737;
+            overflow: hidden;
+            text-align: right;
+        }
+
+        .toplinks-right a{
+            color: #f2f2f2;
+            display: inline-block;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+
+        .toplinks-right a:hover{
+            text-decoration: none;
+            background-color: #f2f2f2;
+            color: #373737;
+        }
     </style>
 </head>
 <body>
     <div class="banner">
         <h1>Contacts</h1>
     </div>
+
+    <div class="toplinks-right">
+        <a href="sign-up.html">Sign Up</a>
+        <a href="sign-in.html">Sign In</a>
+    </div>
     <p>This is where you can contact us...</p>
     <div class="row">
         <div class="content">
             <h2><strong>Contact Us</strong></h2>
 
-            <form action="">
+            <form action="" method="post" class="contact-form">
 
                 <label for="name">Name:</label><br>
                 <input type="text" id="name" name="name" placeholder="Your Name" required><br><br>
@@ -97,11 +146,13 @@
                 <input type="checkbox" name="subscribe" value="bbit" id="subscribe-bbit">
                 <label for="subscribe-bbit"> Subscribe to the BBIT newsletter</label><br><br>
 
-                <select name="options" required>
-                    <option value="">Select an option</option>
-                    <option value="option1">Option 1</option>
-                    <option value="option2">Option 2</option>
-                    <option value="option3">Option 3</option>
+                <select name="Subject" required>
+                    <option value="">Select a subject</option>
+                    <option value="Technical support">Technical Support</option>
+                    <option value="Feedback">Feedback</option>
+                    <option value="General inquiry">General Inquiry</option>
+                    <option value="Other">Other</option>
+                    <option value="AMS Support">AMS Support</option>
                 </select><br><br>
 
                 <textarea name="message" placeholder="Your Message" required></textarea><br><br>
