@@ -7,27 +7,27 @@ class Sedan extends Vehicle implements Automobile {
     @Override
     public void accelerate() {
         speed += 50;
-        System.out.println("Sedan accelerating. Speed: " + speed);
+        System.out.println(brand + " Sedan accelerating. Speed: " + speed);
     }
 
     @Override
     public void stop() {
         speed = 0;
-        System.out.println("Sedan stopped.");
+        System.out.println(brand + " Sedan stopped.");
     }
 
     @Override
     public void gas() {
-        System.out.println("Sedan gas filled.");
+        System.out.println(brand + " Sedan gas filled.");
     }
 
     @Override
     public void openBoot() {
-        System.out.println("Sedan trunk opened.");
+        System.out.println(brand + " Sedan trunk opened.");
     }
 
     @Override
     public void playRadio() {
-        System.out.println("Sedan radio playing.");
+        System.out.println(brand + " Sedan radio playing.");
     }
 }

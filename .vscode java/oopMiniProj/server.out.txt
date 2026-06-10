@@ -1,0 +1,2 @@
+java.rmi.RemoteException: Failed to initialize MySQL student_data table; nested exception is: 
+	java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)

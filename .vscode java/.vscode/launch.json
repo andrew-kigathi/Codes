@@ -1,0 +1,27 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "oopMiniProj: Run Server",
+            "request": "launch",
+            "mainClass": "server",
+            "cwd": "${workspaceFolder}/oopMiniProj",
+            "classPaths": [
+                "${workspaceFolder}/oopMiniProj/bin",
+                "${workspaceFolder}/oopMiniProj/src"
+            ]
+        },
+        {
+            "type": "java",
+            "name": "oopMiniProj: Run Client",
+            "request": "launch",
+            "mainClass": "client",
+            "cwd": "${workspaceFolder}/oopMiniProj",
+            "classPaths": [
+                "${workspaceFolder}/oopMiniProj/bin",
+                "${workspaceFolder}/oopMiniProj/src"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+// Name: Andrew Kigathi
+// Student ID: 220277
+// Date: 22/05/2026
+
+import java.rmi.Naming;
+import java.rmi.registry.LocateRegistry;
+
+public class server {
+    public static void main(String[] args) {
+        try {
+            // Start the RMI registry programmatically (no need to run rmiregistry
+            // separately)
+            LocateRegistry.createRegistry(1099);
+
+            // Create remote object
+            miniprojimpl obj = new miniprojimpl();
+
+            // Register object with RMI registry
+            Naming.rebind("rmi://localhost/HelloService", obj);
+
+            System.out.println("Server is running...");
+        } catch (Exception e) {
+            System.out.println(e);
+        }
+    }
+}

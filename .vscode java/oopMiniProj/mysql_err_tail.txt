@@ -1,0 +1,80 @@
+2026-05-05T16:12:14.954827Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2026-05-05T16:12:14.954935Z 0 [System] [MY-010931] [Server] C:\mySQL\mysql-9.5.0-winx64\bin\mysqld.exe: ready for connections. Version: '9.5.0'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2026-05-14T02:09:38.114204Z 0 [System] [MY-013105] [Server] C:\mySQL\mysql-9.5.0-winx64\bin\mysqld.exe: Normal shutdown.
+2026-05-14T02:09:39.653793Z 0 [System] [MY-010910] [Server] C:\mySQL\mysql-9.5.0-winx64\bin\mysqld.exe: Shutdown complete (mysqld 9.5.0)  MySQL Community Server - GPL.
+2026-05-14T02:09:39.654839Z 0 [System] [MY-015016] [Server] MySQL Server - end.
+2026-05-14T02:10:09.847372Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2026-05-14T02:10:10.218947Z 0 [System] [MY-010116] [Server] C:\mySQL\mysql-9.5.0-winx64\bin\mysqld.exe (mysqld 9.5.0) starting as process 6476
+2026-05-14T02:10:10.219030Z 0 [System] [MY-015590] [Server] MySQL Server has access to 12 logical CPUs.
+2026-05-14T02:10:10.219050Z 0 [System] [MY-015590] [Server] MySQL Server has access to 16486764544 bytes of physical memory.
+2026-05-14T02:10:10.283760Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2026-05-14T02:10:10.743976Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2026-05-14T02:10:11.563235Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2026-05-14T02:10:11.563805Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2026-05-14T02:10:11.612036Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2026-05-14T02:10:11.612163Z 0 [System] [MY-010931] [Server] C:\mySQL\mysql-9.5.0-winx64\bin\mysqld.exe: ready for connections. Version: '9.5.0'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2026-05-14T02:11:27.765156Z 0 [System] [MY-013105] [Server] C:\mySQL\mysql-9.5.0-winx64\bin\mysqld.exe: Normal shutdown.
+2026-05-14T02:11:28.431329Z 0 [System] [MY-010910] [Server] C:\mySQL\mysql-9.5.0-winx64\bin\mysqld.exe: Shutdown complete (mysqld 9.5.0)  MySQL Community Server - GPL.
+2026-05-14T02:11:28.432187Z 0 [System] [MY-015016] [Server] MySQL Server - end.
+2026-05-14T02:11:58.730371Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2026-05-14T02:11:58.997254Z 0 [System] [MY-010116] [Server] C:\mySQL\mysql-9.5.0-winx64\bin\mysqld.exe (mysqld 9.5.0) starting as process 6576
+2026-05-14T02:11:58.997327Z 0 [System] [MY-015590] [Server] MySQL Server has access to 12 logical CPUs.
+2026-05-14T02:11:58.997343Z 0 [System] [MY-015590] [Server] MySQL Server has access to 16486764544 bytes of physical memory.
+2026-05-14T02:11:59.042404Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2026-05-14T02:11:59.382341Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2026-05-14T02:11:59.814873Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2026-05-14T02:11:59.815380Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2026-05-14T02:11:59.860694Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2026-05-14T02:11:59.860794Z 0 [System] [MY-010931] [Server] C:\mySQL\mysql-9.5.0-winx64\bin\mysqld.exe: ready for connections. Version: '9.5.0'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2026-05-23T16:31:04.602440Z 0 [System] [MY-013105] [Server] C:\mySQL\mysql-9.5.0-winx64\bin\mysqld.exe: Normal shutdown.
+2026-05-23T16:31:05.244496Z 0 [System] [MY-010910] [Server] C:\mySQL\mysql-9.5.0-winx64\bin\mysqld.exe: Shutdown complete (mysqld 9.5.0)  MySQL Community Server - GPL.
+2026-05-23T16:31:05.245185Z 0 [System] [MY-015016] [Server] MySQL Server - end.
+2026-05-23T16:31:32.365312Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2026-05-23T16:31:32.595094Z 0 [System] [MY-010116] [Server] C:\mySQL\mysql-9.5.0-winx64\bin\mysqld.exe (mysqld 9.5.0) starting as process 2188
+2026-05-23T16:31:32.595266Z 0 [System] [MY-015590] [Server] MySQL Server has access to 12 logical CPUs.
+2026-05-23T16:31:32.595276Z 0 [System] [MY-015590] [Server] MySQL Server has access to 16486764544 bytes of physical memory.
+2026-05-23T16:31:32.690558Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2026-05-23T16:31:33.354928Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2026-05-23T16:31:33.608443Z 0 [Warning] [MY-011311] [Server] Plugin mysqlx reported: 'All I/O interfaces are disabled, X Protocol won't be accessible'
+2026-05-23T16:31:33.900157Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2026-05-23T16:31:33.900669Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2026-05-23T16:31:33.952106Z 0 [System] [MY-010931] [Server] C:\mySQL\mysql-9.5.0-winx64\bin\mysqld.exe: ready for connections. Version: '9.5.0'  socket: ''  port: 0  MySQL Community Server - GPL.
+2026-05-23T16:31:33.953778Z 0 [ERROR] [MY-010131] [Server] TCP/IP, --shared-memory, or --named-pipe should be configured on NT OS
+2026-05-23T16:31:33.954364Z 0 [ERROR] [MY-010119] [Server] Aborting
+2026-05-23T16:31:35.018804Z 0 [ERROR] [MY-013183] [InnoDB] Assertion failure: trx0sys.cc:679:UT_LIST_GET_LEN(trx_sys->mysql_trx_list) == 0 thread 19468
+InnoDB: We intentionally generate a memory trap.
+InnoDB: Submit a detailed bug report to http://bugs.mysql.com.
+InnoDB: If you get repeated assertion failures or crashes, even
+InnoDB: immediately after the mysqld startup, there may be
+InnoDB: corruption in the InnoDB tablespace. Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/9.5/en/forcing-innodb-recovery.html
+InnoDB: about forcing recovery.
+2026-05-23T16:31:35Z UTC - mysqld got exception 0x16 ;
+Most likely, you have hit a bug, but this error can also be caused by malfunctioning hardware.
+Thread pointer: 0x0
+Attempting backtrace. You can use the following information to find out
+where mysqld died. If you see no messages after this, something went
+terribly wrong...
+7ff701ef2ab8    mysqld.exe!my_print_stacktrace()[stacktrace.cc:474]
+7ff701091731    mysqld.exe!print_fatal_signal()[signal_handler.cc:325]
+7ff701091475    mysqld.exe!my_server_abort()[signal_handler.cc:450]
+7ff701ed8e2a    mysqld.exe!my_abort()[my_init.cc:269]
+7ff7020bd409    mysqld.exe!ut_dbg_assertion_failed()[ut0dbg.cc:100]
+7ff7021c7921    mysqld.exe!trx_sys_close()[trx0sys.cc:679]
+7ff701ff33f6    mysqld.exe!srv_shutdown()[srv0start.cc:2819]
+7ff701f50f4d    mysqld.exe!innodb_shutdown()[ha_innodb.cc:1643]
+7ff700ef959b    mysqld.exe!ha_finalize_handlerton()[handler.cc:753]
+7ff700f28d54    mysqld.exe!plugin_deinitialize()[sql_plugin.cc:1134]
+7ff700f2ebd4    mysqld.exe!reap_plugins()[sql_plugin.cc:1203]
+7ff700f2d692    mysqld.exe!plugin_shutdown()[sql_plugin.cc:2077]
+7ff700e73aa2    mysqld.exe!clean_up()[mysqld.cc:2828]
+7ff700e87d88    mysqld.exe!unireg_abort()[mysqld.cc:2631]
+7ff700e866bb    mysqld.exe!setup_conn_event_handler_threads()[mysqld.cc:3526]
+7ff700e8a2a0    mysqld.exe!win_main()[mysqld.cc:10237]
+7ff700e82585    mysqld.exe!mysql_service()[mysqld.cc:10343]
+7ff700e82b9b    mysqld.exe!mysqld_main()[mysqld.cc:10560]
+7ff7027878c4    mysqld.exe!__scrt_common_main_seh()[exe_common.inl:288]
+7ff8c7b4e957    KERNEL32.DLL!BaseThreadInitThunk()
+7ff8c9c2427c    ntdll.dll!RtlUserThreadStart()
+The manual page at https://dev.mysql.com/doc/mysql/en/crashing.html contains
+information that should help you find out what is causing the crash.

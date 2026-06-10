@@ -6,11 +6,33 @@
     "configurations": [
         {
             "type": "java",
+            "name": "exe",
+            "request": "launch",
+            "mainClass": "exe",
+            "projectName": "Codes_ef260f2a"
+        },
+        {
+            "type": "java",
+            "name": "client",
+            "request": "launch",
+            "mainClass": "client",
+            "projectName": "Codes_ef260f2a",
+            "vmArgs": "--module-path \"C:/Users/andre/Desktop_og/javafx-26_windows-x64_bin-sdk/javafx-sdk-26.0.1/lib\" --add-modules javafx.controls --enable-native-access=javafx.graphics"
+        },
+        {
+            "type": "java",
+            "name": "MainVehicle",
+            "request": "launch",
+            "mainClass": "MainVehicle",
+            "projectName": "Codes_ef260f2a"
+        },
+        {
+            "type": "java",
             "name": "Customer",
             "request": "launch",
             "mainClass": "Customer",
             "projectName": "Codes_ef260f2a",
-            "vmArgs":"--module-path \"C:/Users/andre/Desktop_og/javafx-26_windows-x64_bin-sdk/javafx-sdk-26.0.1/lib\" --add-modules javafx.controls,javafx.fxml --enable-native-access=ALL-UNNAMED"
+            "vmArgs": "--module-path \"C:/Users/andre/Desktop_og/javafx-26_windows-x64_bin-sdk/javafx-sdk-26.0.1/lib\" --add-modules javafx.controls,javafx.fxml --enable-native-access=ALL-UNNAMED"
         },
         {
             "type": "java",
@@ -41,7 +63,6 @@
             "name": "Open index.html",
             "file": "c:\\Users\\andre\\Desktop_og\\Github\\Codes\\.vscode html\\index.html"
         },
-
         {
             "type": "java",
             "name": "Rentals",
@@ -49,6 +70,6 @@
             "mainClass": "Rentals",
             "projectName": "Codes_ef260f2a",
             "vmArgs": "--module-path \"C:/Users/andre/Desktop_og/javafx-26_windows-x64_bin-sdk/javafx-sdk-26.0.1/lib\" --add-modules javafx.controls,javafx.fxml --enable-native-access=ALL-UNNAMED"
-        },
+        }
     ]
 }

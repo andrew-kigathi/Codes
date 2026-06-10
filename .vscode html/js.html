@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JavaScript Basics</title>
+        <body>
+            <p id="demo">Hello Javascript!</p>
+            <script>
+                document.getElementById("demo").innerHTML = "Hello JavaScript!";
+            </script>
+            <br>
+            <script>
+                document.write("Welcome to JavaScript programming!");
+            </script>
+            <br>
+            <script>
+                //window.alert("This is an alert box!");
+            </script>
+            <br>
+            <a href="#" onclick="return confirm('Are you sure you want to delete this?')">Delete</a>
+            <br>
+            <script>
+                console.log("This message is logged in the console.");
+            </script>
+            <br>
+            <script>
+                let x = 4;
+                let y = 5;
+                let sum = x + y;
+                console.log("The sum of x and y is: " + sum);
+                document.write("The sum of x and y is: " + sum + "<br>");
+
+                var name = "Alice";
+                let age = 30;
+                console.log("Hello, " + name + "!");
+                document.write("<br>Hello, " + name + "!");
+                console.log("You are " + age + " years old.");
+                document.write("<br>You are " + age + " years old.");
+
+                //Using const will bring aan error if we try reassign it because it is a constant variable
+
+                //Arrays
+                let fruits = ["Apple", "Banana", "Cherry"];
+                console.log("Fruits: " + fruits);
+                document.write("<br>Fruits: " + fruits);
+
+                //Conditons
+                /*let food = prompt("Enter a food item:");
+                if(fruits.includes(food)){
+                    document.write("<br>" + food + " is in the fruits array.");
+                } else {
+                    document.write("<br>" + food + " is not in the fruits array.");
+                }*/
+
+                //Defining a function to greet a user
+                function greetings(name){
+                    var fname = name; //local variable to store the name
+                    return "Hello, " + fname + "!";
+                }
+            </script>
+
+        </body>
+</html>
