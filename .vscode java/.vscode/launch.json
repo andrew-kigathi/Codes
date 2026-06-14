@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "com.database.Main",
+            "projectName": ".vscode java_af861c2f"
+        },
+        {
+            "type": "java",
             "name": "oopMiniProj: Run Server",
             "request": "launch",
             "mainClass": "server",

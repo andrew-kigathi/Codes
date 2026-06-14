@@ -47,7 +47,7 @@
         <h2>Registration Form</h2>
         <div class="Field"></div>
             <label for="fullname">Full Name</label><br>
-            <input type="text" id="fullname" name="fullname" autofocus><br>
+            <input type="text" id="fullname" name="fullname" autofocus maxlength="50"><br>
             <p  id="fullnameError" class="error"></p><br>
         </div>
         <div class="Field"></div>
@@ -57,7 +57,7 @@
         </div>
         <div class="Field"></div>
             <label for="phone">Phone Number</label><br>
-            <input type="tel" id="phone" name="phone"><br>
+            <input type="tel" id="phone" name="phone" maxlength="15"><br>
             <p id="phoneError" class="error"></p><br>
         </div>
         <div class="Field"></div>
@@ -129,7 +129,7 @@
                 isValid = false;
                 document.getElementById('validationMessage').textContent = 'Please enter a valid email address.';
             }
-            
+
             if(isValid){
                 document.getElementById('validationMessage').textContent = 'Registration successful!';
                 document.getElementById('validationMessage').classList.remove('error');
@@ -139,6 +139,90 @@
                 document.getElementById('validationMessage').classList.remove('success');
                 document.getElementById('validationMessage').classList.add('error');
             }
+
+            //validate phone number
+            const phone = document.getElementById('phone').value.trim();
+            if (phone === '') { //CHECK IF PHONE NUMBER IS EMPTY
+                document.getElementById('phoneError').textContent = 'Phone Number is required';
+                isValid = false;
+            } else if (!/^\+?\d{10,15}$/.test(phone)) { //CHECK IF PHONE NUMBER IS IN VALID FORMAT (10 - 15 DIGITS) and can also start with + for international numbers
+                document.getElementById('phoneError').textContent = 'Invalid phone number format';
+                isValid = false;
+                document.getElementById('validationMessage').textContent = 'Please enter a valid phone number.';
+            } else if (!/^\d+$/.test(phone)) { //CHECK IF PHONE NUMBER CONTAINS ONLY DIGITS
+                document.getElementById('phoneError').textContent = 'Phone Number can only contain digits';
+                isValid = false;
+                document.getElementById('validationMessage').textContent = 'Please enter a valid phone number.';
+            }
+
+            if(isValid){
+                document.getElementById('validationMessage').textContent = 'Registration successful!';
+                document.getElementById('validationMessage').classList.remove('error');
+                document.getElementById('validationMessage').classList.add('success');
+            } else {
+                document.getElementById('validationMessage').textContent = 'Please correct the errors and try again.';
+                document.getElementById('validationMessage').classList.remove('success');
+                document.getElementById('validationMessage').classList.add('error');
+            }
+
+            //validate password
+            const password = document.getElementById('password').value;
+            if (password === '') { //CHECK IF PASSWORD IS EMPTY
+                document.getElementById('passwordError').textContent = 'Password is required';
+                isValid = false;
+            } else if (password.length < 8) { //CHECK IF PASSWORD IS LESS THAN 8 CHARACTERS
+                document.getElementById('passwordError').textContent = 'Password must be at least 8 characters long';
+                isValid = false;
+                document.getElementById('validationMessage').textContent = 'Please enter a valid password.';
+            } else if (!/[A-Z]/.test(password)) { //CHECK IF PASSWORD CONTAINS AT LEAST ONE UPPERCASE LETTER
+                document.getElementById('passwordError').textContent = 'Password must contain at least one uppercase letter';
+                isValid = false;
+                document.getElementById('validationMessage').textContent = 'Please enter a valid password.';
+            } else if (!/[a-z]/.test(password)) { //CHECK IF PASSWORD CONTAINS AT LEAST ONE LOWERCASE LETTER
+                document.getElementById('passwordError').textContent = 'Password must contain at least one lowercase letter';
+                isValid = false;
+                document.getElementById('validationMessage').textContent = 'Please enter a valid password.';
+            } else if (!/[0-9]/.test(password)) { //CHECK IF PASSWORD CONTAINS AT LEAST ONE DIGIT
+                document.getElementById('passwordError').textContent = 'Password must contain at least one digit';
+                isValid = false;
+                document.getElementById('validationMessage').textContent = 'Please enter a valid password.';
+            } else if (!/[!@#$%^&*(),.?":{}|<>]/.test(password)) { //CHECK IF PASSWORD CONTAINS AT LEAST ONE SPECIAL CHARACTER
+                document.getElementById('passwordError').textContent = 'Password must contain at least one special character';
+                isValid = false;
+                document.getElementById('validationMessage').textContent = 'Please enter a valid password.';
+            }
+
+            if(isValid){
+                document.getElementById('validationMessage').textContent = 'Registration successful!';
+                document.getElementById('validationMessage').classList.remove('error');
+                document.getElementById('validationMessage').classList.add('success');
+            } else {
+                document.getElementById('validationMessage').textContent = 'Password should be at least 8 characters long and contain uppercase, lowercase, digit, and special character.';
+                document.getElementById('validationMessage').classList.remove('success');
+                document.getElementById('validationMessage').classList.add('error');
+            }
+
+            //validate confirm password
+            const confirmPassword = document.getElementById('confirm_password').value;
+            if (confirmPassword === '') { //CHECK IF CONFIRM PASSWORD IS EMPTY
+                document.getElementById('confirmPasswordError').textContent = 'Confirm Password is required';
+                isValid = false;
+            } else if (confirmPassword !== password) { //CHECK IF CONFIRM PASSWORD MATCHES PASSWORD
+                document.getElementById('confirmPasswordError').textContent = 'Passwords do not match';
+                isValid = false;
+                document.getElementById('validationMessage').textContent = 'Please make sure the passwords match.';
+            }
+
+            if(isValid){
+                document.getElementById('validationMessage').textContent = 'Registration successful!';
+                document.getElementById('validationMessage').classList.remove('error');
+                document.getElementById('validationMessage').classList.add('success');
+            } else {
+                document.getElementById('validationMessage').textContent = 'Passwords do not match.';
+                document.getElementById('validationMessage').classList.remove('success');
+                document.getElementById('validationMessage').classList.add('error');
+            }
+
         });
     </script>
 </body>

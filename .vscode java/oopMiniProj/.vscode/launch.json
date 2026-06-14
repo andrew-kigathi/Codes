@@ -3,6 +3,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ChatClient",
+            "request": "launch",
+            "mainClass": "ChatClient",
+            "projectName": "oopMiniProj_2aa56524"
+        },
+        {
+            "type": "java",
+            "name": "ChatServer",
+            "request": "launch",
+            "mainClass": "ChatServer",
+            "projectName": "oopMiniProj_2aa56524"
+        },
+        {
+            "type": "java",
             "name": "1. Run Server",
             "request": "launch",
             "mainClass": "server",

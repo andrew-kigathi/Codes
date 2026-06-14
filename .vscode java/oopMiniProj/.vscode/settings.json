@@ -3,6 +3,7 @@
     "java.project.outputPath": "bin",
     "java.project.referencedLibraries": [
         "lib/**/*.jar",
-        "C:/Users/andre/Desktop_og/javafx-26_windows-x64_bin-sdk/javafx-sdk-26.0.1/lib/*.jar"
+        "C:/Users/andre/Desktop_og/javafx-26_windows-x64_bin-sdk/javafx-sdk-26.0.1/lib/*.jar",
+        "c:\\Users\\andre\\Downloads\\mysql-connector-j-9.7.0\\mysql-connector-j-9.7.0\\mysql-connector-j-9.7.0.jar"
     ]
 }
